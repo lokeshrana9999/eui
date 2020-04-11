@@ -109,7 +109,8 @@ const accordionForceStateSnippet = `<EuiAccordion
   buttonContent="Controlled via outside prop">
     <!-- Content to show when expanded -->
 </EuiAccordion>`;
-
+import scssVars from '../../../../src/utils/scss_variable_import/sass_to_js';
+console.log('scss vars', scssVars);
 export const AccordionExample = {
   title: 'Accordion',
   intro: (
